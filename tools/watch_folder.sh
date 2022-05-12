@@ -44,7 +44,7 @@ parse_params() {
     -h | --help) usage ;;
     -v | --verbose) set -x ;;
     --no-color) NO_COLOR=1 ;;
-    -r | --recursice) recursive=1 ;; # example flag
+    -r | --recursive) recursive=1 ;; # example flag
     -?*) die "Unknown option: $1" ;;
     *) break ;;
     esac
